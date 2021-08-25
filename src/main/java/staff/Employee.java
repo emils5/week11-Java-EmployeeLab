@@ -31,7 +31,9 @@ public abstract class Employee {
         return getSalary()*0.01;
     }
 
-
+    public void setName(String newName) {
+        this.name = newName;
+    }
 }
 
 
